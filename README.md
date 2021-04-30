@@ -16,7 +16,7 @@ Tested on Linux, Windows and Mac OS.
 #### 1.Install Node.js 
 ```v10.15.3``` is recommended and tested
 #### 2.Clone code
- ```$:git clone https://github.com/goldshellminer/goldshellminer-cli.git```
+ ```$:https://github.com/manfromafar/goldshell-miner-lb1.git```
 #### 3.Install dependency
 ```$:npm install```
 #### 4.Config pool
@@ -31,13 +31,24 @@ Config `./config.json` to set your pool.
       "minername": ["Goldshell-HS1", "Goldshell-HS1-Plus"],
       "pool": {
         "host": "hns.ss.dxpool.com",
-        "port": 3009,
-        "user": "USERNAME.WORKERNAME",
+        "port": 3008,
+        "user": "user.name",
+        "pass": "x"
+      }
+    },
+    {
+      "cryptoname": "lbc",
+      "minername": ["Goldshell-LB1"],
+      "pool": {
+        "host": "lbc.viabtc.com",
+        "port": 3002,
+        "user": "user.name",
         "pass": "x"
       }
     }
   ]
 }
+
 ```
 #### 5.Start Mining
 ```$:npm run dashboard ```
