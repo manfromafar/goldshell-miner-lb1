@@ -1,0 +1,25 @@
+Usage:
+
+goldshellminer-win || goldshellminer-linux || goldshellminer-macos
+
+Exe cmd:
+
+    goldshellminer-* --config [YOUR-CONFIG-FILE]
+    Options:
+      --config          Config file
+      --loglevel        -1 (dashboard mode), 0 ~ 3 (debug mode: debug level from err to info, 3 show all log)
+      --help
+
+Json settings:
+
+    loglevel: -1 (dashboard mode), 0 ~ 3 (debug mode: debug level from err to info, 3 show all log)
+    miners:
+      cryptoname: support hns
+      minername: support Goldshell-HS1, Goldshell-HS1-Plus
+      pool: (pool settings, like this)
+        {
+          host: `hns.ss.dxpool.com`,
+          port: 3008,
+          user: `user.worker`,
+          pass: 'x'
+        }

@@ -1,0 +1,61 @@
+{
+  "bin": {
+    "stratum-notify": "./bin/stratum-notify"
+  },
+  "dependencies": {
+    "better-curry": "*",
+    "bluebird": "2.x",
+    "chalk": "*",
+    "commander": "*",
+    "debug": "*",
+    "es5class": "1.x.x",
+    "eventemitter3": "1.x",
+    "json-rpc2": "1.x",
+    "lodash": "3.x",
+    "toobusy-js": "*",
+    "uuid": "*"
+  },
+  "deprecated": false,
+  "description": "Stratum protocol server and client for node.js",
+  "devDependencies": {
+    "coveralls": "*",
+    "expect.js": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "sinon": "*"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "homepage": "https://github.com/pocesar/node-stratum#readme",
+  "license": "GPLv2",
+  "main": "./lib",
+  "name": "stratum",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pocesar/node-stratum.git"
+  },
+  "version": "0.2.4",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x"
+      },
+      "pkgid": "stratum@0.2.4"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x"
+      },
+      "pkgid": "stratum@0.2.4"
+    }
+  ]
+}
