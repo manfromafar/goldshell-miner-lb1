@@ -35,7 +35,7 @@ const typeOffset = 0;
 const lb1cfg = {
     model: "Goldshell-LB1",
     algo: "lbry",
-    varity: 0x11,
+    varity: 0x00,
     targetFreq: 750,  //MHz
     targetVoltage: 430, //mv
     targetTemp: 65,
@@ -83,7 +83,7 @@ class lb1 extends EventEmitter {
             temp:0,
             voltage:0,
             freq:0,
-            varity:0x11,
+            varity:0x0,
             cores:0,
             goodcores:0,
             scanbits:0,
